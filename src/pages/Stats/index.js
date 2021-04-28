@@ -11,13 +11,13 @@ export default function Body({ totalSupply, reserveSOCKSToken, ready, balanceSOC
     <AppWrapper overlay={state.visible}>
       <Header totalSupply={totalSupply} ready={ready} balanceSOCKS={balanceSOCKS} setShowConnect={() => {}} />
       <Content>
-        <Title>SOCKS Stats</Title>
+        <Title>SPACE Stats</Title>
         <Description>
           <p>
             <span role="img" aria-label="socks">
               🧦
             </span>
-            Initial SOCKS
+            Initial SPACE
           </p>
           <p>500</p>
         </Description>
@@ -26,7 +26,7 @@ export default function Body({ totalSupply, reserveSOCKSToken, ready, balanceSOC
             <span role="img" aria-label="socks">
               🔥
             </span>
-            Redeemed SOCKS
+            Redeemed SPACE
           </p>
           <p>{500 - totalSupply}</p>
         </Description>
@@ -41,7 +41,7 @@ export default function Body({ totalSupply, reserveSOCKSToken, ready, balanceSOC
         </Description>
         <Shim />
         <Footer>
-          The price of SOCKS changes when tokens are bought and sold.
+          The price of SPACE changes when tokens are bought and sold.
           <br />
           <br />
           <a
