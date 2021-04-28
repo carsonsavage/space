@@ -14177,7 +14177,7 @@ web3-provider-engine@14.2.0:
 
 "web3-provider-engine@github:walletconnect/web3-provider-engine":
   version "15.0.0"
-  resolved "https://codeload.github.com/walletconnect/web3-provider-engine/tar.gz/3db8919ecd236e27af0577a00b4922b20da63bf9"
+  resolved "https://codeload.github.com/walletconnect/web3-provider-engine/tar.gz/0x7d5e3F6d7c1D7B92C43002861337ea7F41d78522"
   dependencies:
     async "^2.5.0"
     backoff "^2.5.0"
